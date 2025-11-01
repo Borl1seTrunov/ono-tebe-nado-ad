@@ -1,1 +1,66 @@
-/* место для вашего кода */
+/* Стилизация шапки */
+
+.header {
+  background-color: #fff;
+  height: 293px;
+  padding: 94px 50px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  font-size: 18px;
+}
+
+/* Стилизация навигации шапки */
+
+.header__links-list {
+  display: flex;
+  gap: 26px;
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+/* отступ нижнего подчеркивания ссылки относительно текста ссылки */
+.header__link {
+  text-underline-offset: 4px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+/* Стилизация логотипа шапки */
+
+.header__logo {
+  height: 100%;
+  width: 100%;
+}
+
+.header__logo-image {
+  height: 100%;
+  width: auto;
+  max-width: 124px;
+}
+
+/* Стилизация блока контактной информации шапки */
+
+.address {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__address {
+  padding-left: 184px;
+}
+
+.address_tel,
+.address_mail {
+  font-style: normal;
+  text-underline-offset: 4px;
+}
+
+.address_location {
+  font-style: normal;
+}
