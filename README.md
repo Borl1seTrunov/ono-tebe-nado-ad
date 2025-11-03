@@ -1,1 +1,1 @@
-Проектная работа ОНО ТЕБЕ НАДО
+https://github.com/Borl1seTrunov/ono-tebe-nado-ad
